@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>开源项目列表</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        
+        .repo-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .repo-item {
+            padding: 15px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .repo-item:last-child {
+            border-bottom: none;
+        }
+        
+        .repo-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #0366d6;
+            text-decoration: none;
+        }
+        
+        .repo-name:hover {
+            text-decoration: underline;
+        }
+        
+        .repo-description {
+            color: #666;
+            margin-top: 5px;
+        }
+        
+        .category {
+            margin-top: 30px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #0366d6;
+            color: #0366d6;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>开源项目列表</h1>
+        
+        <div class="category">前端</div>
+        <ul class="repo-list">
+            <li class="repo-item">
+                <a href="https://github.com/vuejs/vue" class="repo-name">Vue.js</a>
+                <div class="repo-description">渐进式JavaScript框架</div>
+            </li>
+            <li class="repo-item">
+                <a href="https://github.com/facebook/react" class="repo-name">React</a>
+                <div class="repo-description">用于构建用户界面的JavaScript库</div>
+            </li>
+        </ul>
+
+        <div class="category">AI</div>
+        <ul class="repo-list">
+            <li class="repo-item">
+                <a href="https://github.com/tensorflow/tensorflow" class="repo-name">TensorFlow</a>
+                <div class="repo-description">端到端开源机器学习平台</div>
+            </li>
+            <li class="repo-item">
+                <a href="https://gitee.com/gptzm/multibot-chat" class="repo-name">Multibot Chat</a>
+                <div class="repo-description">多机器人聊天系统</div>
+            </li>
+            <li class="repo-item">
+                <a href="https://github.com/ItusiAI/AI-Translation-Assistant-Pro" class="repo-name">AI翻译助手</a>
+                <div class="repo-description">AI翻译辅助工具</div>
+            </li>
+            <li class="repo-item">
+                <a href="https://github.com/deepseek-ai/DeepSeek-Coder" class="repo-name">DeepSeek Coder</a>
+                <div class="repo-description">深度代码搜索工具</div>
+            </li>
+            <li class="repo-item">
+                <a href="https://github.com/lm-sys/FastChat" class="repo-name">FastChat</a>
+                <div class="repo-description">快速聊天系统</div>
+            </li>
+            <li class="repo-item">
+                <a href="https://github.com/albertan017/LLM4Decompile" class="repo-name">LLM4Decompile</a>
+                <div class="repo-description">LLM反编译工具</div>
+            </li>
+            <li class="repo-item">
+                <a href="https://github.com/ai-collection/ai-collection" class="repo-name">AI Collection</a>
+                <div class="repo-description">AI工具集合</div>
+            </li>
+            <li class="repo-item">
+                <a href="https://github.com/virattt/ai-hedge-fund" class="repo-name">AI Hedge Fund</a>
+                <div class="repo-description">AI对冲基金</div>
+            </li>
+            <li class="repo-item">
+                <a href="https://github.com/langgenius/dify" class="repo-name">Dify</a>
+                <div class="repo-description">AI应用开发平台</div>
+            </li>
+        </ul>
+
+        <div class="category">嵌入式</div>
+        <ul class="repo-list">
+            <li class="repo-item">
+                <a href="https://github.com/kubernetes/kubernetes" class="repo-name">Kubernetes</a>
+                <div class="repo-description">容器编排系统</div>
+            </li>
+            <li class="repo-item">
+                <a href="https://github.com/mcu-tools/mcuboot" class="repo-name">MCUboot</a>
+                <div class="repo-description">MCU引导程序</div>
+            </li>
+            <li class="repo-item">
+                <a href="https://github.com/feaser/openblt" class="repo-name">OpenBLT</a>
+                <div class="repo-description">开源引导加载程序</div>
+            </li>
+            <li class="repo-item">
+                <a href="https://github.com/zephyrproject-rtos/zephyr" class="repo-name">Zephyr</a>
+                <div class="repo-description">实时操作系统</div>
+            </li>
+            <li class="repo-item">
+                <a href="https://github.com/nanomq/nanomq" class="repo-name">NanoMQ</a>
+                <div class="repo-description">轻量级MQTT消息代理</div>
+            </li>
+            <li class="repo-item">
+                <a href="https://github.com/nanomq/NanoNNG" class="repo-name">NanoNNG</a>
+                <div class="repo-description">NNG网络库</div>
+            </li>
+            <li class="repo-item">
+                <a href="https://github.com/carla-simulator/carla" class="repo-name">CARLA</a>
+                <div class="repo-description">自动驾驶模拟器</div>
+            </li>
+        </ul>
+
+        <div class="category">工具</div>
+        <ul class="repo-list">
+            <li class="repo-item">
+                <a href="https://github.com/1Panel-dev/1Panel" class="repo-name">1Panel</a>
+                <div class="repo-description">服务器管理面板</div>
+            </li>
+            <li class="repo-item">
+                <a href="https://github.com/jumpserver/jumpserver" class="repo-name">JumpServer</a>
+                <div class="repo-description">堡垒机系统</div>
+            </li>
+            <li class="repo-item">
+                <a href="https://github.com/Stirling-Tools/Stirling-PDF" class="repo-name">Stirling PDF</a>
+                <div class="repo-description">PDF处理工具</div>
+            </li>
+            <li class="repo-item">
+                <a href="https://github.com/whyour/qinglong" class="repo-name">青龙面板</a>
+                <div class="repo-description">定时任务管理</div>
+            </li>
+            <li class="repo-item">
+                <a href="https://github.com/TikTokDownloader" class="repo-name">TikTok Downloader</a>
+                <div class="repo-description">TikTok视频下载器</div>
+            </li>
+            <li class="repo-item">
+                <a href="https://github.com/aceberg/WatchYourLAN" class="repo-name">WatchYourLAN</a>
+                <div class="repo-description">局域网监控工具</div>
+            </li>
+            <li class="repo-item">
+                <a href="https://github.com/kern/filepizza" class="repo-name">FilePizza</a>
+                <div class="repo-description">P2P文件传输工具</div>
+            </li>
+            <li class="repo-item">
+                <a href="https://github.com/go-gitea/gitea" class="repo-name">Gitea</a>
+                <div class="repo-description">自托管Git服务</div>
+            </li>
+            <li class="repo-item">
+                <a href="https://github.com/outline/outline" class="repo-name">Outline</a>
+                <div class="repo-description">团队知识库</div>
+            </li>
+            <li class="repo-item">
+                <a href="https://github.com/Lissy93/web-check" class="repo-name">Web Check</a>
+                <div class="repo-description">网站安全检查工具</div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
