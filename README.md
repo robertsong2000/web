@@ -49,6 +49,13 @@
 - [Outline](https://github.com/outline/outline)
 - [Web Check](https://github.com/Lissy93/web-check)
 
+### CI/CD
+- [Jenkins](https://github.com/jenkins-infra/jenkins)
+- [GitLab](https://github.com/gitlab/gitlab-ce)
+- [Drone](https://github.com/drone/drone)
+- [Argo CD](https://github.com/argoproj/argo-cd)
+- [Tekton](https://github.com/tektoncd/pipeline)
+
 ## 使用方法
 
 1. 克隆本仓库
