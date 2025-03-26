@@ -11,40 +11,43 @@
 ## 项目分类
 
 ### 前端
-- Vue.js
-- React
+- [Vue.js](https://github.com/vuejs/vue)
+- [React](https://github.com/facebook/react)
 
 ### AI
-- TensorFlow
-- Multibot Chat
-- AI翻译助手
-- DeepSeek Coder
-- FastChat
-- LLM4Decompile
-- AI Collection
-- AI Hedge Fund
-- Dify
+- [TensorFlow](https://github.com/tensorflow/tensorflow)
+- [Multibot Chat](https://gitee.com/gptzm/multibot-chat)
+- [AI翻译助手](https://github.com/ItusiAI/AI-Translation-Assistant-Pro)
+- [DeepSeek Coder](https://github.com/deepseek-ai/DeepSeek-Coder)
+- [FastChat](https://github.com/lm-sys/FastChat)
+- [LLM4Decompile](https://github.com/albertan017/LLM4Decompile)
+- [AI Collection](https://github.com/ai-collection/ai-collection)
+- [AI Hedge Fund](https://github.com/virattt/ai-hedge-fund)
+- [Dify](https://github.com/langgenius/dify)
 
 ### 嵌入式
-- Kubernetes
-- MCUboot
-- OpenBLT
-- Zephyr
-- NanoMQ
-- NanoNNG
-- CARLA
+- [Kubernetes](https://github.com/kubernetes/kubernetes)
+- [MCUboot](https://github.com/mcu-tools/mcuboot)
+- [OpenBLT](https://github.com/feaser/openblt)
+- [Zephyr](https://github.com/zephyrproject-rtos/zephyr)
+- [NanoMQ](https://github.com/nanomq/nanomq)
+- [NanoNNG](https://github.com/nanomq/NanoNNG)
+- [CARLA](https://github.com/carla-simulator/carla)
+- [FreeRTOS](https://github.com/FreeRTOS/FreeRTOS)
+- [RT-Thread](https://github.com/RT-Thread/rt-thread)
+- [Apache NuttX](https://github.com/apache/nuttx)
 
 ### 工具
-- 1Panel
-- JumpServer
-- Stirling PDF
-- 青龙面板
-- TikTok Downloader
-- WatchYourLAN
-- FilePizza
-- Gitea
-- Outline
-- Web Check
+- [1Panel](https://github.com/1Panel-dev/1Panel)
+- [JumpServer](https://github.com/jumpserver/jumpserver)
+- [Stirling PDF](https://github.com/Stirling-Tools/Stirling-PDF)
+- [青龙面板](https://github.com/whyour/qinglong)
+- [TikTok Downloader](https://github.com/TikTokDownloader)
+- [WatchYourLAN](https://github.com/aceberg/WatchYourLAN)
+- [FilePizza](https://github.com/kern/filepizza)
+- [Gitea](https://github.com/go-gitea/gitea)
+- [Outline](https://github.com/outline/outline)
+- [Web Check](https://github.com/Lissy93/web-check)
 
 ## 使用方法
 
