@@ -50,7 +50,7 @@
 - [Web Check](https://github.com/Lissy93/web-check)
 
 ### CI/CD
-- [Jenkins](https://github.com/jenkins-infra/jenkins)
+- [Jenkins](https://github.com/jenkinsci/jenkins)
 - [GitLab](https://github.com/gitlab/gitlab-ce)
 - [Drone](https://github.com/drone/drone)
 - [Argo CD](https://github.com/argoproj/argo-cd)
